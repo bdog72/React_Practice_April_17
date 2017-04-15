@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import App1 from './App1'
-import App2 from './App2'
 import ReactRoute from './ReactRoute'
 class App extends Component {
   render () {
@@ -11,7 +10,6 @@ class App extends Component {
         <br />
         <ReactRoute />
         <br />
-        <App2 />
       </div>
     )
   }
